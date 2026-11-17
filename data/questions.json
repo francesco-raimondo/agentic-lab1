@@ -1,0 +1,14 @@
+[
+  {"id": 1,  "question": "What is 37 * 48 + 112?", "answer": 1888, "type": "number", "needs": ["calculator"]},
+  {"id": 2,  "question": "What is the maximum payload of robot Cirrus, in kg?", "answer": 60, "type": "number", "needs": ["get_robot"]},
+  {"id": 3,  "question": "How far is it from the Port depot to the Hospital depot, in km?", "answer": 7, "type": "number", "needs": ["get_distance"]},
+  {"id": 4,  "question": "How many kilometres can robot Atlas travel on a full battery?", "answer": 15, "type": "number", "needs": ["get_robot", "calculator"]},
+  {"id": 5,  "question": "Which robot has the largest maximum payload?", "answer": "Etna", "type": "text", "needs": ["list_robots", "get_robot"]},
+  {"id": 6,  "question": "Robot Borea drives from the Campus depot to the Port depot and back. How many Wh of energy does it use?", "answer": 600, "type": "number", "needs": ["get_robot", "get_distance", "calculator"]},
+  {"id": 7,  "question": "Can robot Delta carry a 45 kg parcel? Answer yes or no.", "answer": "no", "type": "yesno", "needs": ["get_robot"]},
+  {"id": 8,  "question": "How many minutes does robot Etna need to drive from the North depot to the Campus depot?", "answer": 30, "type": "number", "needs": ["get_robot", "get_distance", "calculator"]},
+  {"id": 9,  "question": "What is the total battery capacity of all the robots in the fleet, in Wh?", "answer": 6600, "type": "number", "needs": ["list_robots", "get_robot", "calculator"]},
+  {"id": 10, "question": "What is 15% of 2480?", "answer": 372, "type": "number", "needs": ["calculator"]},
+  {"id": 11, "question": "At which depot is robot Cirrus based?", "answer": "Campus", "type": "text", "needs": ["get_robot"]},
+  {"id": 12, "question": "Robot Atlas starts with a full battery and drives from the North depot to the Hospital depot. What percentage of its battery is left?", "answer": 40, "type": "number", "needs": ["get_robot", "get_distance", "calculator"]}
+]

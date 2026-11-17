@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Secrets: never commit tokens
+.env
+*.token
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+# Model files belong in the Hugging Face cache, not in git
+*.safetensors
+*.bin

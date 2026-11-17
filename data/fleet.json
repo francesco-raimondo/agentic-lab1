@@ -1,0 +1,18 @@
+{
+  "_note": "Fictional data created for the lab. A language model cannot know these values, so it has to use the tools.",
+  "robots": {
+    "Atlas":  {"battery_wh": 1200, "consumption_wh_per_km": 80,  "max_payload_kg": 40, "speed_kmh": 12, "depot": "North"},
+    "Borea":  {"battery_wh": 900,  "consumption_wh_per_km": 60,  "max_payload_kg": 25, "speed_kmh": 15, "depot": "Port"},
+    "Cirrus": {"battery_wh": 1500, "consumption_wh_per_km": 100, "max_payload_kg": 60, "speed_kmh": 10, "depot": "Campus"},
+    "Delta":  {"battery_wh": 1000, "consumption_wh_per_km": 50,  "max_payload_kg": 30, "speed_kmh": 18, "depot": "Hospital"},
+    "Etna":   {"battery_wh": 2000, "consumption_wh_per_km": 125, "max_payload_kg": 80, "speed_kmh": 8,  "depot": "North"}
+  },
+  "distances_km": {
+    "North-Port": 6,
+    "North-Campus": 4,
+    "North-Hospital": 9,
+    "Port-Campus": 5,
+    "Port-Hospital": 7,
+    "Campus-Hospital": 3
+  }
+}
